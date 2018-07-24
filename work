@@ -1,0 +1,10 @@
+def func(x):
+    num = []
+    for i in range(10):
+        num.append(i)
+    if x in num:
+        return False
+    elif x <= 1 and x >= 10:
+        return True
+print(func(7))
+    
